@@ -15,31 +15,14 @@
 <!-- write your code here -->
 <style>
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #E9F0FF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
     overflow: hidden;
 }
+
 #animation_container {
-    position: relative;
-    display: block;
-    max-width: 100% !important;
-    max-height: 100vh !important;
-    width: auto !important;
-    height: auto !important;
-    aspect-ratio: 16 / 9;
-}
-#canvas {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100% !important;
-    height: 100% !important;
-    object-fit: contain !important;
+    margin: auto;
+    left: -100%; right: -100%;
+    top: -100%; bottom: -100%;
 }
 </style>
 <script src="libs/1.0.0/createjs.min.js"></script>
